@@ -43,7 +43,7 @@
                 <span class="heading-primary--sub">is where life happens</span>
             </h1>
 
-            <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+            <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
 
         </div>
 
@@ -141,7 +141,7 @@
         </section>
 
 
-        <section class="section-tours">
+        <section class="section-tours" id="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">most popular tours!</h2>
             </div>
@@ -172,7 +172,7 @@
                                     <p class="card__price-only">Only</p>
                                     <div class="card__price-value">$297</div>
                                 </div>
-                                <a href="#" class="btn btn--white">Book Now!</a>
+                                <a href="#popup" class="btn btn--white">Book Now!</a>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                                     <p class="card__price-only">Only</p>
                                     <div class="card__price-value">$497</div>
                                 </div>
-                                <a href="#" class="btn btn--white">Book Now!</a>
+                                <a href="#popup" class="btn btn--white">Book Now!</a>
                             </div>
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                                     <p class="card__price-only">Only</p>
                                     <div class="card__price-value">$797</div>
                                 </div>
-                                <a href="#" class="btn btn--white">Book Now!</a>
+                                <a href="#popup" class="btn btn--white">Book Now!</a>
                             </div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@
 
 
             <div class="u-center-text u-margin-top-huge">
-                <a href="#" class="btn btn--green">Discover All Tours</a>
+                <a href="#popup" class="btn btn--green">Discover All Tours</a>
             </div>
 
 
@@ -259,8 +259,8 @@
 
             <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop>
-                    <source src="/img/video.mp4" type="video/mp4">
-                    <source src="/img/video.webm" type="video/webm">
+                    <source src="../img/video.mp4" type="video/mp4">
+                    <source src="../img/video.webm" type="video/webm">
                     Your browser is not supported!
                 </video>
             </div>
@@ -272,7 +272,7 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="/img/nat-8.jpg" alt="person on a tour" class="story__image">
+                        <img src="../img/nat-8.jpg" alt="person on a tour" class="story__image">
                         <figcaption class="story__caption">Mary Smith</figcaption>
                     </figure>
                     <div class="story__text">
@@ -290,7 +290,7 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="/img/nat-9.jpg" alt="person on a tour" class="story__image">
+                        <img src="../img/nat-9.jpg" alt="person on a tour" class="story__image">
                         <figcaption class="story__caption">Jack Wilson</figcaption>
                     </figure>
                     <div class="story__text">
@@ -371,7 +371,7 @@
     <footer class="footer">
 
         <div class="footer__logo-box">
-            <img src="/img/logo-green-2x.png" alt="full logo" class="footer__logo">
+            <img src="../img/logo-green-2x.png" alt="full logo" class="footer__logo">
         </div>
         <div class="row">
             <div class="col-1-of-2">
@@ -393,6 +393,23 @@
             </div>
         </div>
     </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="../img/nat-8.jpg" alt="" class="popup__img">
+                <img src="../img/nat-9.jpg" alt="" class="popup__img">
+            </div>
+
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">important! please read terms and conditions before booking</h3>
+                <p class="popup__text">Lorem ipsum dolor sit pti animi libero ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nemo officiis fuga libero molestias atque vitae culpa maxime perferendis nesciunt, amet tempore labore deserunt nobis ad voluptatibus! Quis, non necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a culpa possimus deserunt sapiente fuga iste quaerat</p>
+           <a href="#" class="btn btn--green">book now</a>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
